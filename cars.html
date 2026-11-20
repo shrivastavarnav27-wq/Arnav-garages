@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cars | Arnav Garages</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+    background:#0b0b0b;
+    color:white;
+}
+
+header{
+    background:black;
+    padding:20px 8%;
+    position:sticky;
+    top:0;
+    z-index:1000;
+}
+
+nav{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.logo{
+    color:#ff3131;
+    font-size:2rem;
+    font-weight:800;
+}
+
+nav a{
+    text-decoration:none;
+    color:white;
+    margin-left:20px;
+    transition:.3s;
+}
+
+nav a:hover{
+    color:#ff3131;
+}
+
+.hero{
+    padding:80px 20px;
+    text-align:center;
+}
+
+.hero h1{
+    font-size:4rem;
+    color:#ff3131;
+}
+
+.hero p{
+    max-width:700px;
+    margin:auto;
+    margin-top:15px;
+}
+
+.cars-container{
+    padding:50px 8%;
+}
+
+.cars-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+    gap:30px;
+}
+
+.card{
+    background:#181818;
+    border-radius:20px;
+    overflow:hidden;
+    transition:.4s;
+}
+
+.card:hover{
+    transform:translateY(-10px);
+    box-shadow:0 0 25px rgba(255,49,49,.5);
+}
+
+.card img{
+    width:100%;
+    height:220px;
+    object-fit:cover;
+}
+
+.card-content{
+    padding:20px;
+}
+
+.card-content h2{
+    color:#ff3131;
+    margin-bottom:10px;
+}
+
+.card-content p{
+    margin-bottom:8px;
+}
+
+.source{
+    display:inline-block;
+    margin-top:10px;
+    color:#ffd700;
+    text-decoration:none;
+}
+
+.source:hover{
+    text-decoration:underline;
+}
+
+footer{
+    background:#111;
+    text-align:center;
+    padding:30px;
+    margin-top:50px;
+}
+
+</style>
+</head>
+<body>
+
+<header>
+
+<nav>
+
+<div class="logo">ARNAV GARAGES</div>
+
+<div>
+<a href="index.html">Home</a>
+<a href="cars.html">Cars</a>
+<a href="models.html">Models</a>
+<a href="legends.html">Legends</a>
+<a href="garage.html">Garage</a>
+<a href="reviews.html">Reviews</a>
+<a href="about.html">About</a>
+</div>
+
+</nav>
+
+</header>
+
+<section class="hero">
+
+<h1>Supercars & Hypercars</h1>
+
+<p>
+Explore the world's most powerful and legendary 
