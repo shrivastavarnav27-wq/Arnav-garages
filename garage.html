@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>My Garage | Arnav Garages</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+
+<script type="module"
+src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js">
+</script>
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+}
+
+body{
+background:#0b0b0b;
+color:white;
+}
+
+header{
+background:black;
+padding:20px 8%;
+position:sticky;
+top:0;
+z-index:1000;
+}
+
+nav{
+display:flex;
+justify-content:space-between;
+align-items:center;
+}
+
+.logo{
+font-size:2rem;
+font-weight:800;
+color:#ff3131;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+margin-left:20px;
+}
+
+nav a:hover{
+color:#ff3131;
+}
+
+.hero{
+text-align:center;
+padding:70px 20px;
+}
+
+.hero h1{
+font-size:4rem;
+color:#ff3131;
+}
+
+.container{
+width:90%;
+max-width:1200px;
+margin:auto;
+}
+
+.card{
+background:#181818;
+padding:25px;
+border-radius:20px;
+margin-bottom:30px;
+}
+
+label{
+display:block;
+margin-bottom:10px;
+margin-top:15px;
+}
+
+input,textarea{
+width:100%;
+padding:12px;
+border:none;
+border-radius:10px;
+background:#222;
+color:white;
+}
+
+button{
+margin-top:20px;
+padding:12px 25px;
+border:none;
+background:#ff3131;
+color:white;
+border-radius:30px;
+cursor:pointer;
+}
+
+button:hover{
+background:red;
+}
+
+model-viewer{
+width:100%;
+height:600px;
+background:#111;
+border-radius:20px;
+margin-top:20px;
+}
+
+.preview{
+margin-top:20px;
+padding:20px;
+background:#111;
+border-radius:20px;
+}
+
+.preview h2{
+color:#ff3131;
+}
+
+footer{
+margin-top:50px;
+padding:30px;
+background:#111;
+text-align:center;
+}
+
+</style>
+</head>
+<body>
+
+<header>
+
+<nav>
+
+<div class="logo">ARNAV GARAGES</div>
+
+<div>
+<a href="index.html">Home</a>
+<a href="cars.html">Cars</a>
+<a href="models.html">Models</a>
+<a href="legends.html">Legends</a>
+<a href="garage.html">Garage</a>
+<a href="reviews.html">Reviews</a>
+<a href="about.html">About</a>
+</div>
+
+</nav>
+
+</header>
+
+<section class="hero">
+
+<h1>MY GARAGE</h1>
+
+<p>Create your own collection of dream cars.</p>
+
+</section>
+
+<div class="container">
+
+<div class="card">
+
+<h2>Upload Your 3D Car Model</h2>
+
+<label>Car Name</label>
+<input type="text" id="carName" placeholder="Bugatti Chiron">
+
+<label>Description</label>
+<textarea id="carDescription"
