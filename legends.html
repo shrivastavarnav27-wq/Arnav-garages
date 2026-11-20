@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Legends | Arnav Garages</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+    background:#0b0b0b;
+    color:white;
+}
+
+header{
+    background:#000;
+    padding:20px 8%;
+    position:sticky;
+    top:0;
+    z-index:1000;
+}
+
+nav{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.logo{
+    color:#ff3131;
+    font-size:2rem;
+    font-weight:800;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin-left:20px;
+    transition:.3s;
+}
+
+nav a:hover{
+    color:#ff3131;
+}
+
+.hero{
+    text-align:center;
+    padding:80px 20px;
+}
+
+.hero h1{
+    font-size:4rem;
+    color:#ff3131;
+}
+
+.hero p{
+    margin-top:15px;
+    color:#ddd;
+}
+
+.timeline{
+    position:relative;
+    max-width:1200px;
+    margin:auto;
+    padding:50px 0;
+}
+
+.timeline::after{
+    content:'';
+    position:absolute;
+    width:6px;
+    background:#ff3131;
+    top:0;
+    bottom:0;
+    left:50%;
+    margin-left:-3px;
+}
+
+.container{
+    padding:20px 40px;
+    position:relative;
+    background:inherit;
+    width:50%;
+}
+
+.left{
+    left:0;
+}
+
+.right{
+    left:50%;
+}
+
+.container::after{
+    content:'';
+    position:absolute;
+    width:25px;
+    height:25px;
+    right:-17px;
+    background:#fff;
+    border:4px solid #ff3131;
+    top:30px;
+    border-radius:50%;
+    z-index:1;
+}
+
+.right::after{
+    left:-16px;
+}
+
+.content{
+    padding:20px;
+    background:#181818;
+    border-radius:20px;
+    transition:.4s;
+}
+
+.content:hover{
+    transform:scale(1.03);
+    box-shadow:0 0 25px rgba(255,49,49,.5);
+}
+
+.content img{
+    width:100%;
+    border-radius:15px;
+    margin-bottom:15px;
+}
+
+.content h2{
+    color:#ff3131;
+    margin-bottom:10px;
+}
+
+.year{
+    font-size:1.2rem;
+    color:#ffd700;
+    font-weight:bold;
+}
+
+.source{
+    display:inline-block;
+    margin-top:10px;
+    color:#ffd700;
+    text-decoration:none;
+}
+
+.source:hover{
+    text-decoration:underline;
+}
+
+footer{
+    text-align:center;
+    background:#111;
+    padding:30px;
+    margin-top:50px;
+}
+
+footer h2{
+    color:#ff3131;
+}
+
+@media screen and (max-width:768px){
+
+.timeline::after{
+    left:31px;
+}
+
+.container{
+    width:100%;
+    padding-left:70px;
+    padding-right:20px;
+}
+
+.left,.right{
+    left:0;
+}
+
+.container::after{
+    left:15px;
+}
+
+}
+
+</style>
+</head>
+<body>
+
+<header>
+
+<nav>
+
+<div class="logo">ARNAV GARAGES</div>
+
+<div>
+<a href="index.html">Home</a>
+<a href="cars.html">Cars</a>
+<a href="models.html">Models</a>
+<a href="legends.html">Legends</a>
+<a href="garage.html">Garage</a>
+<a href="reviews.html">Reviews</a>
+<a href="about.html">About</a>
+</div>
+
+</nav>
+
+</header>
+
+<section class="hero">
+
+<h1>Automotive Legends</h1>
+
+<p>
+The greatest automobiles ever created.
+Machines that changed the automotive world forever.
+</p>
+
+</section>
+
+<div class="timeline">
+
+<div class="container left">
+<div class="content">
+
+<span class="year">1964</span>
+
+<h2>Ford Mustang</h2>
+
+<img src="https://source.unsplash.com/800x500/?ford,mustang" alt="Mustang">
+
+<p>
+The original pony car that started a revolution.
+</p>
+
+<a class="source"
+href="https://unsplash.com/s/photos/ford-mustang"
+target="_blank">
+Image Source
+</a>
+
+</div>
+</div>
+
+<div class="container right">
+<div class="content">
+
+<span class="year">1987</span>
+
+<h2>Ferrari F40</h2>
+
+<img src="https://source.unsplash.com/800x500/?ferrari,f40" alt="Ferrari F40">
+
+<p>
+Built to celebrate Ferrari's 40th anniversary.
+One of the most iconic supercars ever made.
+</p>
+
+<a class="source"
+href="https://unsplash.com/s/photos/ferrari-f40"
+target="_blank">
+Image Source
+</a>
+
+</div>
+</div>
+
+<div class="container left">
+<div class="content">
+
+<span class="year">1992</span>
+
+<h2>McLaren F1</h2>
+
+<img src="https://source.unsplash.com/800x500/?mclaren,f1" alt="McLaren F1">
+
+<p>
+Long considered the greatest driver's car in history.
+</p>
+
+<a class="source"
+href="https://unsplash.com/s/photos/mclaren-f1"
+target="_blank">
+Image Source
+</a>
+
+</div>
+</div>
+
+<div class="container right">
+<div class="content">
+
+<span class="year">2005</span>
+
+<h2>Bugatti Veyron</h2>
+
+<img src="https://source.unsplash.com/800x500/?bugatti,veyron" alt="Bugatti Veyron">
+
+<p>
+Redefined the limits of speed and luxury.
+</p>
+
+<a class="source"
+href="https://unsplash.com/s/photos/bugatti-veyron"
+target="_blank">
+Image Source
+</a>
+
+</div>
+</div>
+
+<div class="container left">
+<div class="content">
+
+<span class="year">2013</span>
+
+<h2>LaFerrari</h2>
+
+<img src="https://source.unsplash.com/800x500/?ferrari,laferrari" alt="LaFerrari">
+
+<p>
+Ferrari's first hybrid hypercar masterpiece.
+</p>
+
+<a class="source"
+href="https://unsplash.com/s/photos/laferrari"
+target="_blank">
+Image Source
+</a>
+
+</div>
+</div>
+
+<div class="container right">
+<div class="content">
+
+<span class="year">2024</span>
+
+<h2>Bugatti Tourbillon</h2>
+
+<img src="https://source.unsplash.com/800x500/?bugatti,hypercar" alt="Tourbillon">
+
+<p>
+The next generation of Bugatti engineering and innovation.
+</p>
+
+<a class="source"
+href="https://unsplash.com/s/photos/bugatti"
+target="_blank">
+Image Source
+</a>
+
+</div>
+</div>
+
+</div>
+
+<footer>
+
+<h2>ARNAV SRIVASTAVA</h2>
+
+<p>
+Arnav Garages • Celebrating Automotive History
+</p>
+
+</footer>
+
+</body>
+</html>
